@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&family=Ruda:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #1E1E1E;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: 'Quattrocento', serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Quattrocento', serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Ruda', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* font-family: 'Quattrocento', serif;
+font-family: 'Ruda', sans-serif; */
+
+/* header section */
+header {
+    background: #000000;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.header-links ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    padding-right: 33px;
+}
+
+.header-social-icon {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+
+.insta-icon img {
+    width: 100%;
+}
+
+.face-icon img {
+    width: 100%;
+}
+
+.whatsapp-icon img {
+    width: 100%;
+}
+
+#example2 {
+    border: 2px solid black;
+    padding: 25px;
+    background: url("images/pizza-bg-image.png");
+    background-repeat: no-repeat;
+    /* background-size: 300px 200%; */
+    background-size: contain;
+    background-size: 100% auto;
+
+}
+
+/* pizza bg image */
+.pizza-heading p {
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 101px;
+    line-height: 108px;
+    /* text-align: center; */
+    letter-spacing: 0.09em;
+}
+
+.pizza-heading {
+    border-bottom: 12px solid #F24C4C;
+}
+
+.pizza-para p {
+    line-height: 40px;
+    letter-spacing: 0.09em;
+}
+
+.sec-1-heading {
+    border-bottom: 12px solid #F24C4C;
+}
+
+/* menu */
+.mitem-heading span {
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 0px;
+    align-items: center;
+    color: #F2C94C;
+}
+
+.col-3.m-food {
+    margin-bottom: 3%;
+}
+
+/* find us */
+.col-6.find-us-para p {
+    line-height: 40px;
+    letter-spacing: 0.09em;
+}
+
+.col-10.find-us-address span {
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+}
+
+.col-10.findus-phone span {
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+}
