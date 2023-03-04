@@ -145,3 +145,27 @@ ul li {
     line-height: 40px;
     letter-spacing: 0.09em;
 }
+
+/* footer */
+
+.footer-sec {
+    margin-top: 10%;
+}
+
+.footer-email span {
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+}
+
+.footer-phone span {
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+}
